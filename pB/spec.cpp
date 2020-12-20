@@ -28,15 +28,11 @@ protected:
 class TestSpec : public BaseTestSpec<ProblemSpec> {
 protected:    
     void rnda(int n, int m, bool all_sep){
-        a.resize(n, vector<char>(m));
+        a.resize(n, vector<char>(m, '.'));
         if(all_sep){
             for(int i=0;i<n;i+=2){
                 for(int j=0;j<m;j+=2){
-                    if(rnd.nextInt(1, 2) % 2){
-                        a[i][j] = '*';
-                    } else {
-                        a[i][j] = '.';
-                    }
+                    a[i][j] = '*';
                 }
             }
         } else {
