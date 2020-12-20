@@ -52,6 +52,17 @@ protected:
         }
     }
 
+    void rnda1(int n, int m){
+        a.resize(n, vector<char>(m));
+      
+        for(int i=0;i<n;i++){
+            for(int j=0;j<m;j++){
+                a[i][j] = '*';
+            }
+        }
+        
+    }
+
     void BeforeTestCase(){
         a.clear();
     }
@@ -63,8 +74,11 @@ protected:
         for(int i=0;i<40;i++){
             CASE(n = rnd.nextInt(1, 100), m = rnd.nextInt(1, 100), rnda(n, m, false));
         }
-        for(int i=0;i<50;i++){
-            CASE(n = rnd.nextInt(1, 1e3), m = rnd.nextInt(1, 1e3), rnda(n, m, false));
+        for(int i=0;i<40;i++){
+            CASE(n = rnd.nextInt(1, 2*1e3), m = rnd.nextInt(1, 2*1e3), rnda(n, m, false));
+        }
+        for(int i=0;i<10;i++){
+            CASE(n = rnd.nextInt(1e3, 2*1e3), m = rnd.nextInt(1e3, 2*1e3), rnda1(n, m));
         }
     }
 };
