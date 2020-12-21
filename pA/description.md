@@ -32,7 +32,7 @@
     empty
 
 ### 輸入2:
-    0 7
+   		0 7
 		Car ABC 3 30
 		Price 50
 		Car DEF 2 60
