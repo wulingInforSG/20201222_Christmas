@@ -19,27 +19,26 @@
 
 ## 範例輸入及輸出
 ### 輸入1:
-
-		1 6
-		Leave
-		Car ABC 3 100
-		Car DEF 2 50
-		Car GHI 2 100
-		Car JKL 2 80
-		Price 50
+	1 6
+	Leave
+	Car ABC 3 100
+	Car DEF 2 50
+	Car GHI 2 100
+	Car JKL 2 80
+	Price 50
     
 ### 輸出1:
     empty
 
 ### 輸入2:
-   		0 7
-		Car ABC 3 30
-		Price 50
-		Car DEF 2 60
-		Car GHI 3 100
-		Leave
-		Price 80
-		Car JKL 3 100
+	0 7
+	Car ABC 3 30
+	Price 50
+	Car DEF 2 60
+	Car GHI 3 100
+	Leave
+	Price 80
+	Car JKL 3 100
     
 ### 輸出2:
     DEF JKL
