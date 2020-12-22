@@ -11,11 +11,13 @@
 
 ## 輸入說明
 第一行為ㄅ ㄙ，以空格隔開。
+
 接下來有ㄅ行，每行有一些數字，代表住戶準備的禮物上的數字。
 
 ## 輸出說明
-如果蛇蛇不會丟出"Giftoverflow"，輸出"GiftSentSuccessfully"並換行
-如果蛇蛇會丟出"Giftoverflow"，輸出"Giftoverflow"並換行
+如果蛇蛇不會丟出"Giftoverflow"，輸出"GiftSentSuccessfully"並換行。
+
+如果蛇蛇會丟出"Giftoverflow"，輸出"Giftoverflow"並換行。
 ## 範例輸入及輸出
 ### 輸入1:
 
